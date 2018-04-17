@@ -1,0 +1,252 @@
+===2018-04-12 10:23:36.531 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+===2018-04-12 10:23:37.374 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+===2018-04-12 11:55:03.674 INFO  com.zaxxer.hikari.HikariDataSource Line:381 - HikariPool-1 - Shutdown initiated...
+===2018-04-12 11:55:03.745 INFO  com.zaxxer.hikari.HikariDataSource Line:383 - HikariPool-1 - Shutdown completed.
+===2018-04-12 11:55:21.754 INFO  com.fans.farm.FarmApplication Line:50  - Starting FarmApplication on fanfuqiangdeMacBook-Air.local with PID 37278 (/Users/fanfuqiang/work/ServerProjects/farm/target/classes started by fanfuqiang in /Users/fanfuqiang/work/ServerProjects/farm)
+===2018-04-12 11:55:21.769 INFO  com.fans.farm.FarmApplication Line:652 - No active profile set, falling back to default profiles: default
+===2018-04-12 11:55:26.656 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-8888"]
+===2018-04-12 11:55:26.685 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+===2018-04-12 11:55:26.685 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+===2018-04-12 11:55:26.699 INFO  org.apache.catalina.core.AprLifecycleListener Line:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fanfuqiang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+===2018-04-12 11:55:27.004 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+===2018-04-12 11:55:31.543 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:80  - Context refreshed
+===2018-04-12 11:55:31.709 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:83  - Found {0} custom documentation plugin(s)
+===2018-04-12 11:55:31.822 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:53  - Scanning for api listing references
+===2018-04-12 11:55:31.846 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountLogin was 帐号相关接口
+===2018-04-12 11:55:31.848 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: accountLogin belongs to groups: [[ResourceGroup{groupName='帐号相关接口', position=0, controller=com.fans.farm.controller.AccountController}]] 
+===2018-04-12 11:55:31.851 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountRegister was 帐号相关接口
+===2018-04-12 11:55:31.852 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: accountRegister belongs to groups: [[ResourceGroup{groupName='帐号相关接口', position=0, controller=com.fans.farm.controller.AccountController}]] 
+===2018-04-12 11:55:31.854 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAccount was 帐号相关接口
+===2018-04-12 11:55:31.855 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findAccount belongs to groups: [[ResourceGroup{groupName='帐号相关接口', position=0, controller=com.fans.farm.controller.AccountController}]] 
+===2018-04-12 11:55:31.856 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method addProduct was 产品管理接口
+===2018-04-12 11:55:31.856 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: addProduct belongs to groups: [[ResourceGroup{groupName='产品管理接口', position=0, controller=com.fans.farm.controller.ProductController}]] 
+===2018-04-12 11:55:31.857 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method deleteProduct was 产品管理接口
+===2018-04-12 11:55:31.858 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: deleteProduct belongs to groups: [[ResourceGroup{groupName='产品管理接口', position=0, controller=com.fans.farm.controller.ProductController}]] 
+===2018-04-12 11:55:31.858 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method getProductList was 产品管理接口
+===2018-04-12 11:55:31.860 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: getProductList belongs to groups: [[ResourceGroup{groupName='产品管理接口', position=0, controller=com.fans.farm.controller.ProductController}]] 
+===2018-04-12 11:55:31.897 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:84  - Created resource listing Path: /default/产品管理接口 Description: 产品管理接口 Position: 0
+===2018-04-12 11:55:31.899 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:84  - Created resource listing Path: /default/帐号相关接口 Description: 帐号相关接口 Position: 0
+===2018-04-12 11:55:31.959 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:31.960 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:31.974 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:31.974 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.078 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.078 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.089 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.090 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.096 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.097 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.097 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.098 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.108 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.109 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.110 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.110 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(false)
+===2018-04-12 11:55:32.115 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/product/add.com.fans.farm.controller.ProductController.addProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.116 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/product/add.com.fans.farm.controller.ProductController.addProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.152 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method addProduct was 产品管理接口
+===2018-04-12 11:55:32.189 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method addProduct was 产品管理接口
+===2018-04-12 11:55:32.208 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.209 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.210 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.210 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.211 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/product/delete/{productId}.com.fans.farm.controller.ProductController.deleteProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.211 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/product/delete/{productId}.com.fans.farm.controller.ProductController.deleteProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.254 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method deleteProduct was 产品管理接口
+===2018-04-12 11:55:32.256 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method deleteProduct was 产品管理接口
+===2018-04-12 11:55:32.258 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.259 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.259 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.260 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.262 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.263 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.264 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(true)
+===2018-04-12 11:55:32.265 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(true)
+===2018-04-12 11:55:32.272 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: java.util.List<com.fans.farm.model.Product>(true)
+===2018-04-12 11:55:32.273 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key java.util.List<com.fans.farm.model.Product>(true)
+===2018-04-12 11:55:32.274 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.275 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 11:55:32.276 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(true)
+===2018-04-12 11:55:32.277 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(true)
+===2018-04-12 11:55:32.278 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(true)
+===2018-04-12 11:55:32.279 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(true)
+===2018-04-12 11:55:32.279 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/product/list.com.fans.farm.controller.ProductController.getProductList.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.280 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/product/list.com.fans.farm.controller.ProductController.getProductList.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.283 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method getProductList was 产品管理接口
+===2018-04-12 11:55:32.285 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method getProductList was 产品管理接口
+===2018-04-12 11:55:32.294 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.294 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.295 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.295 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.295 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.296 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.296 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.296 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.302 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.303 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.303 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.303 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.304 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/account/login.com.fans.farm.controller.AccountController.accountLogin.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.305 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/account/login.com.fans.farm.controller.AccountController.accountLogin.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.306 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountLogin was 帐号相关接口
+===2018-04-12 11:55:32.308 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountLogin was 帐号相关接口
+===2018-04-12 11:55:32.310 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.310 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.311 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.311 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 11:55:32.311 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.312 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.312 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.313 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 11:55:32.314 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/account/register.com.fans.farm.controller.AccountController.accountRegister.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.314 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/account/register.com.fans.farm.controller.AccountController.accountRegister.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.318 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountRegister was 帐号相关接口
+===2018-04-12 11:55:32.320 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountRegister was 帐号相关接口
+===2018-04-12 11:55:32.323 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.323 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.324 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.325 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.327 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.328 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.328 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Account(true)
+===2018-04-12 11:55:32.328 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Account(true)
+===2018-04-12 11:55:32.333 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.335 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 11:55:32.337 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Account(true)
+===2018-04-12 11:55:32.338 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Account(true)
+===2018-04-12 11:55:32.339 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Account(true)
+===2018-04-12 11:55:32.339 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Account(true)
+===2018-04-12 11:55:32.340 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/account/{account}.com.fans.farm.controller.AccountController.findAccount.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.341 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/account/{account}.com.fans.farm.controller.AccountController.findAccount.DefaultGenericTypeNamingStrategy
+===2018-04-12 11:55:32.345 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAccount was 帐号相关接口
+===2018-04-12 11:55:32.348 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAccount was 帐号相关接口
+===2018-04-12 11:55:32.406 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-8888"]
+===2018-04-12 11:55:32.442 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+===2018-04-12 11:55:32.492 INFO  com.fans.farm.FarmApplication Line:59  - Started FarmApplication in 11.963 seconds (JVM running for 14.863)
+===2018-04-12 11:55:55.108 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+===2018-04-12 11:59:13.200 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+===2018-04-12 11:59:13.747 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+===2018-04-12 12:02:23.080 INFO  com.zaxxer.hikari.HikariDataSource Line:381 - HikariPool-1 - Shutdown initiated...
+===2018-04-12 12:02:23.120 INFO  com.zaxxer.hikari.HikariDataSource Line:383 - HikariPool-1 - Shutdown completed.
+===2018-04-12 12:02:30.744 INFO  com.fans.farm.FarmApplication Line:50  - Starting FarmApplication on fanfuqiangdeMacBook-Air.local with PID 37314 (/Users/fanfuqiang/work/ServerProjects/farm/target/classes started by fanfuqiang in /Users/fanfuqiang/work/ServerProjects/farm)
+===2018-04-12 12:02:30.794 INFO  com.fans.farm.FarmApplication Line:652 - No active profile set, falling back to default profiles: default
+===2018-04-12 12:02:34.672 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Initializing ProtocolHandler ["http-nio-8888"]
+===2018-04-12 12:02:34.685 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+===2018-04-12 12:02:34.686 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.28
+===2018-04-12 12:02:34.691 INFO  org.apache.catalina.core.AprLifecycleListener Line:180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fanfuqiang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+===2018-04-12 12:02:34.842 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring embedded WebApplicationContext
+===2018-04-12 12:02:37.275 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:80  - Context refreshed
+===2018-04-12 12:02:37.295 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:83  - Found {0} custom documentation plugin(s)
+===2018-04-12 12:02:37.305 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:53  - Scanning for api listing references
+===2018-04-12 12:02:37.309 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountLogin was 帐号相关接口
+===2018-04-12 12:02:37.311 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: accountLogin belongs to groups: [[ResourceGroup{groupName='帐号相关接口', position=0, controller=com.fans.farm.controller.AccountController}]] 
+===2018-04-12 12:02:37.312 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountRegister was 帐号相关接口
+===2018-04-12 12:02:37.313 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: accountRegister belongs to groups: [[ResourceGroup{groupName='帐号相关接口', position=0, controller=com.fans.farm.controller.AccountController}]] 
+===2018-04-12 12:02:37.313 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAccount was 帐号相关接口
+===2018-04-12 12:02:37.314 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: findAccount belongs to groups: [[ResourceGroup{groupName='帐号相关接口', position=0, controller=com.fans.farm.controller.AccountController}]] 
+===2018-04-12 12:02:37.315 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method addProduct was 产品管理接口
+===2018-04-12 12:02:37.315 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: addProduct belongs to groups: [[ResourceGroup{groupName='产品管理接口', position=0, controller=com.fans.farm.controller.ProductController}]] 
+===2018-04-12 12:02:37.315 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method deleteProduct was 产品管理接口
+===2018-04-12 12:02:37.316 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: deleteProduct belongs to groups: [[ResourceGroup{groupName='产品管理接口', position=0, controller=com.fans.farm.controller.ProductController}]] 
+===2018-04-12 12:02:37.316 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method getProductList was 产品管理接口
+===2018-04-12 12:02:37.317 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:72  - Request mapping: getProductList belongs to groups: [[ResourceGroup{groupName='产品管理接口', position=0, controller=com.fans.farm.controller.ProductController}]] 
+===2018-04-12 12:02:37.320 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:84  - Created resource listing Path: /default/帐号相关接口 Description: 帐号相关接口 Position: 0
+===2018-04-12 12:02:37.322 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:84  - Created resource listing Path: /default/产品管理接口 Description: 产品管理接口 Position: 0
+===2018-04-12 12:02:37.343 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.343 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.348 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.349 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.383 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.383 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.387 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.387 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.390 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.390 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.390 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.390 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.396 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.397 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.397 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.397 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(false)
+===2018-04-12 12:02:37.399 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/product/add.com.fans.farm.controller.ProductController.addProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.399 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/product/add.com.fans.farm.controller.ProductController.addProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.414 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method addProduct was 产品管理接口
+===2018-04-12 12:02:37.424 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method addProduct was 产品管理接口
+===2018-04-12 12:02:37.434 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.434 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.435 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.435 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.435 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/product/delete/{productId}.com.fans.farm.controller.ProductController.deleteProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.436 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/product/delete/{productId}.com.fans.farm.controller.ProductController.deleteProduct.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.439 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method deleteProduct was 产品管理接口
+===2018-04-12 12:02:37.441 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method deleteProduct was 产品管理接口
+===2018-04-12 12:02:37.443 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.443 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.443 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.443 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.447 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.447 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.448 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(true)
+===2018-04-12 12:02:37.448 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(true)
+===2018-04-12 12:02:37.453 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: java.util.List<com.fans.farm.model.Product>(true)
+===2018-04-12 12:02:37.453 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key java.util.List<com.fans.farm.model.Product>(true)
+===2018-04-12 12:02:37.454 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.454 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<java.util.List<com.fans.farm.model.Product>>(true)
+===2018-04-12 12:02:37.455 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(true)
+===2018-04-12 12:02:37.455 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(true)
+===2018-04-12 12:02:37.456 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Product(true)
+===2018-04-12 12:02:37.457 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Product(true)
+===2018-04-12 12:02:37.457 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/product/list.com.fans.farm.controller.ProductController.getProductList.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.458 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/product/list.com.fans.farm.controller.ProductController.getProductList.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.461 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method getProductList was 产品管理接口
+===2018-04-12 12:02:37.463 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method getProductList was 产品管理接口
+===2018-04-12 12:02:37.469 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.469 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.470 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.470 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.471 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.471 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.471 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.472 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.476 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.477 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.478 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.479 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.480 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/account/login.com.fans.farm.controller.AccountController.accountLogin.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.480 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/account/login.com.fans.farm.controller.AccountController.accountLogin.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.482 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountLogin was 帐号相关接口
+===2018-04-12 12:02:37.484 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountLogin was 帐号相关接口
+===2018-04-12 12:02:37.487 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.487 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.489 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.490 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<java.lang.Boolean>(true)
+===2018-04-12 12:02:37.493 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.493 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.495 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.496 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.requestparam.RequestAccount(false)
+===2018-04-12 12:02:37.498 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/account/register.com.fans.farm.controller.AccountController.accountRegister.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.499 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/account/register.com.fans.farm.controller.AccountController.accountRegister.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.502 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountRegister was 帐号相关接口
+===2018-04-12 12:02:37.507 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method accountRegister was 帐号相关接口
+===2018-04-12 12:02:37.518 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.518 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache models with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.519 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.521 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.527 INFO  springfox.documentation.schema.ModelContextKeyGenerator Line:46  - Cache Key Generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.528 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:79  - Caching aspect applied for cache modelDependencies with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.529 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Account(true)
+===2018-04-12 12:02:37.529 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Account(true)
+===2018-04-12 12:02:37.539 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.541 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.net.RestResult<com.fans.farm.model.Account>(true)
+===2018-04-12 12:02:37.545 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Account(true)
+===2018-04-12 12:02:37.545 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Account(true)
+===2018-04-12 12:02:37.547 INFO  springfox.documentation.schema.property.ModelPropertiesKeyGenerator Line:48  - Cache key generated: com.fans.farm.model.Account(true)
+===2018-04-12 12:02:37.549 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache modelProperties with key com.fans.farm.model.Account(true)
+===2018-04-12 12:02:37.552 INFO  springfox.documentation.spring.web.OperationsKeyGenerator Line:51  - Cache key generated: /api/farm/account/{account}.com.fans.farm.controller.AccountController.findAccount.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.552 INFO  springfox.documentation.spring.web.caching.CachingAspect Line:68  - Caching aspect applied for cache operations with key /api/farm/account/{account}.com.fans.farm.controller.AccountController.findAccount.DefaultGenericTypeNamingStrategy
+===2018-04-12 12:02:37.559 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAccount was 帐号相关接口
+===2018-04-12 12:02:37.566 INFO  springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping Line:100 - Group for method findAccount was 帐号相关接口
+===2018-04-12 12:02:37.595 INFO  org.apache.coyote.http11.Http11NioProtocol Line:180 - Starting ProtocolHandler ["http-nio-8888"]
+===2018-04-12 12:02:37.631 INFO  org.apache.tomcat.util.net.NioSelectorPool Line:180 - Using a shared selector for servlet write/read
+===2018-04-12 12:02:37.661 INFO  com.fans.farm.FarmApplication Line:59  - Started FarmApplication in 7.978 seconds (JVM running for 9.451)
+===2018-04-12 15:26:17.960 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'

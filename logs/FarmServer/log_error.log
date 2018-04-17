@@ -1,0 +1,20 @@
+===2018-04-16 10:57:57.213 ERROR com.fans.farm.controller.AccountController Line:46  - Ike;123456
+===2018-04-16 11:06:01.638 ERROR com.fans.farm.controller.AccountController Line:46  - Ike;123456
+===2018-04-16 11:07:59.902 ERROR com.fans.farm.controller.AccountController Line:46  - Ike;123456
+===2018-04-16 11:11:23.606 ERROR com.fans.farm.controller.AccountController Line:46  - Ike;123456
+===2018-04-16 11:24:36.587 ERROR com.fans.farm.controller.AccountController Line:46  - Ike;123456
+===2018-04-16 18:00:22.377 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter Line:42  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.fans.farm.configure.WebSecurityConfig required a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' in your configuration.
+
