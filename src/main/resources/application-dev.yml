@@ -1,0 +1,33 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/goods?characterEncoding=utf8&useSSL=true
+    username: root
+    password: mysql123
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+    type-aliases-package: com.fans.farm.model
+    mapper-locations: classpath:mybatis/mapper/*.xml
+
+#分页插件配置
+pagehelper:
+    helperDialect: mysql
+    reasonable: true
+    supportMethodsArguments: true
+    params: count=countSql
+
+
+debug: true
+
+#logback配置
+logging:
+  config: classpath:logback.xml
+
+
+
+
+
+
+
